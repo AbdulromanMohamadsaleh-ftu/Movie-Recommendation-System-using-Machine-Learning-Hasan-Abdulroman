@@ -1,8 +1,8 @@
 # Movie_Recommendation_System_using_Machine_Learning
 
 ## Overview
-
-Here we will create a system in python where a user can give the name of his favourite movie and based on this input the project going to recommend certain movies to him this is what we are trying to accomplish in this particular project.
+A recommendation system is one of the applications of data science that is used by almost any application or website today.
+Here we will create a recommendation system in python where a user can give the name of his favourite movie and based on this input the project going to recommend certain movies to him this is what we are trying to accomplish in this particular project.
 Most of us are familiar with platforms like Netflix prime video or star etc and in the recent years these platforms have been used extensively by a lot of different people and the main reason for this is these platforms and apps knows what kind of movies and series each user likes so it tries to analyze the users watching pattern and it tries to recommend movies to them and this is one of the main reasons why these platforms have been used a lot
 There are three Recommendation system:
 -	Content based recommendation system
@@ -109,7 +109,11 @@ we can call this as a similarity confidence score
 
 ![ !](result.png)
 
-- We can use this system with Thai movies.
+<br />
+
+## Summary
+
+In this project, we create a content-based recommender system for recommending movie to a user. To find the similarities between different movie we used the concept of cosine similarity here,We can use this system with Thai movies or you can create your own dataset.
 
 
 
