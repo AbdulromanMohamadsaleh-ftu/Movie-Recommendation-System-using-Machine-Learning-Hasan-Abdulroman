@@ -15,10 +15,14 @@ There are three Recommendation system:
 
 **Collaborative recommendation system** this type of recommendation system groups people based on their watching pattern let's say that there is a group of people and this certain group of people watching similar kind of movie but these people don’t know each other this is the data collected by these apps mainly focuses on the user's behaviour and the users watching pattern.
 
-We use incorporate content-based recommendation system on a certain amount of popularity such as the title of the movie the cast director and what is you know the theme of the movie and so on.
+We use incorporate content-based recommendation system on a certain amount of popularity such as the title of the movie the cast director.
+
+<br />
 
 ## We use Google Collab to write the code here is the link :
-https://colab.research.google.com/drive/1QFKjrEqmV3VdlP2eS5F417135tlyXThz?authuser=1#scrollTo=Xan5bhQHT9oF
+https://colab.research.google.com/drive/1QFKjrEqmV3VdlP2eS5F417135tlyXThz?usp=sharing
+
+<br />
 
 ## Work flow:
 
@@ -29,6 +33,7 @@ https://colab.research.google.com/drive/1QFKjrEqmV3VdlP2eS5F417135tlyXThz?authus
 ***1-Data Collection:***
 
 - We need to have the data of these movies and several details about the movies so we used this Dataset in form of csv file (comma separate value) this data contains of (4803 rows, 24 column).
+
 link https://drive.google.com/file/d/1cckwivv4mgfl20ntgy3n4yapcwqqzqe6/view
 
 ***2-Data preparation (pre-processing data):***
@@ -58,9 +63,10 @@ we can call this as a similarity confidence score
 
 - Now we will get a list of movies and we can now suggest this list of movies to our user.
 
+<br />
 
 
-## The steps we did:
+## The Steps we Did:
 
 #### 1-We import all the library we need:
 
@@ -100,15 +106,8 @@ we can call this as a similarity confidence score
 -	Creating a for loop to getting the index value to finding the title of the movie from movies data frame we are looping 30 times because we want to give 30 suggestions for the user 
 
 #### 5-The output will be like this :
-- Movies suggested for you:
- 1.	Frozen.
- 2.	Aladdin.
- 3.	Enchanted.
- 4.	Princess Kaiulani.
- 5.	Big Hero 6.
- 6.	He Rocker.
- 7.	Astro Boy.
- 8.	Etc...
+
+![ !](result.png)
 
 - We can use this system with Thai movies.
 
