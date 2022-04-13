@@ -17,14 +17,19 @@ There are three Recommendation system:
 
 We use incorporate content-based recommendation system on a certain amount of popularity such as the title of the movie the cast director and what is you know the theme of the movie and so on.
 
-### We use Google Collab to write the code here is the link : https://colab.research.google.com/drive/1QFKjrEqmV3VdlP2eS5F417135tlyXThz?authuser=1#scrollTo=Xan5bhQHT9oF
+## We use Google Collab to write the code here is the link :
+https://colab.research.google.com/drive/1QFKjrEqmV3VdlP2eS5F417135tlyXThz?authuser=1#scrollTo=Xan5bhQHT9oF
 
 ## Work flow:
+
+
+![Work flow !](workflow.png)
+
 
 ***1-Data Collection:***
 
 - We need to have the data of these movies and several details about the movies so we used this Dataset in form of csv file (comma separate value) this data contains of (4803 rows, 24 column).
-Link https://drive.google.com/file/d/1cckwivv4mgfl20ntgy3n4yapcwqqzqe6/view
+link https://drive.google.com/file/d/1cckwivv4mgfl20ntgy3n4yapcwqqzqe6/view
 
 ***2-Data preparation (pre-processing data):***
 
@@ -45,6 +50,9 @@ we can call this as a similarity confidence score
 ***5-Choosing the algorithm (cosine similarity algorithm):***
 
 - We used cosine similarity algorithm and this percent similarity algorithm is used in order to find the similarity between the vectors.
+
+![cosine similarity algorithm!](https://i0.wp.com/clay-atlas.com/wp-content/uploads/2020/03/cosine-similarity-2.png?fit=800%2C208&ssl=1)
+
 
 ***6-List of movies:***
 
